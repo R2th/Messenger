@@ -32,8 +32,8 @@ const SideBar: FC = () => {
       <div
         className={`h-screen flex-shrink-0 overflow-y-auto overflow-x-hidden px-3 ${
           location.pathname !== "/"
-            ? "hidden w-[350px] md:!block"
-            : "w-full md:!w-[350px]"
+            ? "hidden w-[400px] md:!block"
+            : "w-full md:!w-[400px]"
         }`}
       >
         <div className="flex h-20 items-center justify-between border-b-4 border-b border-gray-300 px-6">
